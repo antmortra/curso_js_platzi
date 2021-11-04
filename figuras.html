@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,4 +38,45 @@
     </main>
     <script src="./figuras.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="./figuras.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es el primer taller del curso practico de JavaScript</p>
+    </header>
+    <main>
+        <section class="main-card-cuadrado-container">
+                <h3><span class="main-span-cuadrado"></span> Cuadrado</h3>
+                <input id="inputCuadrado" type="number" placeholder="Cuanto mide el lado" style="text-align: center;"></input>
+                <button class="button-perimetro" type="button" onclick="calcularPerimetroCuadrado()">Calcula el perimetro</button>
+                <button class="button-area" type="button" onclick="calcularAreaCuadrado()">Calcula el area</button>
+        </section>
+        <section class="main-card-triangulo-container">
+            <h3><span class="main-span-triangulo"></span>Triangulo</h3>
+            <input id="input1Triangulo" class="cateto1" type="number" placeholder="Cateto 1" style="text-align: center;">
+            <input id="input2Triangulo" class="cateto2" type="number" placeholder="Cateto 2" style="text-align: center;">
+            <input id="input3Triangulo" class="cateto3" type="number" placeholder="cateto 3" style="text-align: center;">
+            <button class="button-perimetro" type="button" onclick="calcularPerimetroTriangulo()">Calcula el perimetro</button>
+            <button class="button-area" type="button" onclick="calcularAreaTriangulo()">Calcula el area</button>
+        </section>  
+        <section class="main-card-circulo-container">
+            <h3><span class="main-span-circulo"></span>Circulo</h3>
+            <input id="inputCirculo" type="number" placeholder="Cuanto mide el radio" style="text-align: center;">
+            <button class="button-perimetro" type="button" onclick="calcularPerimetroCirculo()">Calcula el perimetro</button>
+            <button class="button-area" type="button" onclick="calcularAreaCirculo()">Calcula el area</button>
+        </section>
+
+    </main>
+    <script src="./figuras.js"></script>
+</body>
+>>>>>>> 3cb660221811fe74ed3b05904f473131f88dbfb7
 </html>
