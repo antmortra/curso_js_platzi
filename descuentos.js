@@ -19,6 +19,7 @@ const value2 = parseInt(input2.value);
 const precioUltimo = precioFinal(value, value2);
 
 const resultadoFinal = document.getElementById("resultadoFinal");
+
 resultadoFinal.innerText = precioUltimo + "€";
 
 }
