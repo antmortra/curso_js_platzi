@@ -12,3 +12,9 @@ Segundo Taller: porcentajes y descuentos
 - crear funciones
 - integrar JS con HTML
 
+Tercer Taller: Promedio, Mediana y Moda.
+
+- primer paso: definir las formulas
+- segundo paso: implementar las formulas en javascript
+- tercer paso: crear funciones
+- cuarto paso: integrar JS con HTML
