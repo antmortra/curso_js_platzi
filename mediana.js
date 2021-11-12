@@ -1,4 +1,8 @@
+
+// Crear funcion para introducir los parametros en el html
+
 const lista = [];
+
 
 function calcularMediana(lista) {
     
